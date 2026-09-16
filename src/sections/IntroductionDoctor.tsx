@@ -11,7 +11,7 @@ export function IntroductionDoctor() {
             <h2 id="introduction-title" className="display-h2 mt-5 max-w-[18ch] text-balance text-navy-950">
               Cada paciente possui uma anatomia. Cada tratamento exige um planejamento.
             </h2>
-            <p className="body-large mt-7 max-w-3xl text-ink/65">
+            <p className="body-large mt-7 max-w-3xl text-navy-950">
               Na Clínica Dr. Márcio Garcia, os procedimentos são planejados de maneira individualizada, respeitando características anatômicas, objetivos pessoais e a busca por resultados naturais.
             </p>
           </Reveal>

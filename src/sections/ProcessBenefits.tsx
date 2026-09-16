@@ -13,11 +13,11 @@ export function ProcessBenefits() {
     <>
       <section aria-labelledby="benefits-title" className="relative overflow-hidden bg-pearl section-space">
         <ResponsiveImage
-          name="clinic-room"
+          name="curtain"
           alt=""
           sizes="100vw"
-          width={1290}
-          height={1720}
+          width={1600}
+          height={900}
           className="absolute inset-0"
           imgClassName="h-full w-full object-cover object-[50%_46%] opacity-25"
         />
@@ -91,7 +91,7 @@ export function ProcessBenefits() {
               A indicação, quantidade de produto e estratégia de tratamento são definidas somente após avaliação.
             </p>
             <CTAButton href={whatsappUrl} external variant="light" className="mt-9">
-              Agendar minha avaliação
+              Agendar minha consulta
             </CTAButton>
           </Reveal>
         </div>

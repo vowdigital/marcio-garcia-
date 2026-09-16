@@ -66,9 +66,9 @@ export function Header() {
               href={whatsappUrl}
               external
               variant={light ? 'light' : 'navy'}
-              ariaLabel="Agendar avaliação pelo WhatsApp"
+              ariaLabel="Agendar minha consulta pelo WhatsApp"
             >
-              Agendar avaliação
+              Agendar minha consulta
             </CTAButton>
           </div>
           <a
@@ -123,7 +123,7 @@ export function Header() {
                 </motion.a>
               ))}
               <CTAButton href={whatsappUrl} external className="mt-6 w-full">
-                Agendar avaliação
+                Agendar minha consulta
               </CTAButton>
             </div>
           </motion.nav>

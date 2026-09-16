@@ -59,7 +59,7 @@ export function Bioplasty() {
               </div>
 
               <CTAButton href={whatsappUrl} external className="mt-10">
-                Quero agendar uma avaliação
+                Agendar minha consulta
               </CTAButton>
             </Reveal>
           </div>

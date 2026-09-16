@@ -21,7 +21,7 @@ export function FinalCTA() {
             Converse com nossa equipe e agende um atendimento reservado com o Dr. Márcio Garcia.
           </p>
           <CTAButton href={whatsappUrl} external variant="light" className="mt-9 text-sm sm:min-w-64">
-            Agendar minha avaliação
+            Agendar minha consulta
           </CTAButton>
           <div className="mt-7 flex flex-wrap gap-x-7 gap-y-3 text-sm text-white/52">
             <span className="inline-flex items-center gap-2">

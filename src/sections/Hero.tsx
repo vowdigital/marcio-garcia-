@@ -67,12 +67,12 @@ export function Hero() {
                   href={whatsappUrl}
                   external
                   variant="light"
-                  ariaLabel="Agendar avaliação pelo WhatsApp"
+                  ariaLabel="Agendar minha consulta pelo WhatsApp"
                 >
-                  Agendar avaliação
+                  Agendar minha consulta
                 </CTAButton>
-                <CTAButton href="#bioplastia" variant="outline-light">
-                  Conhecer o procedimento
+                <CTAButton href={whatsappUrl} external variant="outline-light">
+                  Agendar uma consulta
                 </CTAButton>
               </div>
 
