@@ -1,0 +1,193 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/inter-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/inter-latin-700-italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/inter-latin-800-normal.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/inter-latin-900-normal.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/inter-latin-900-italic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Franklin";
+  src: url("/assets/fonts/libre-franklin-latin-500-normal.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Franklin";
+  src: url("/assets/fonts/libre-franklin-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Franklin";
+  src: url("/assets/fonts/libre-franklin-latin-800-normal.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Libre Franklin", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-navy-950: #071821;
+  --color-navy-900: #0a202c;
+  --color-navy-800: #10303e;
+  --color-ink: #122029;
+  --color-pearl: #f7f5f0;
+  --color-mist: #eef1ef;
+  --color-stone: #dedbd3;
+  --color-champagne: #bca57b;
+  --color-champagne-light: #ded0b5;
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  :root {
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    background: var(--color-pearl);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    min-width: 320px;
+    margin: 0;
+    overflow-x: clip;
+    background: var(--color-pearl);
+    font-family: var(--font-sans);
+    font-weight: 500;
+    line-height: 1.7;
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  ::selection {
+    color: white;
+    background: var(--color-navy-800);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-champagne);
+    outline-offset: 4px;
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-[1360px] px-5 sm:px-8 lg:px-12 xl:px-16;
+  }
+
+  .section-space {
+    @apply py-20 md:py-28 lg:py-36;
+  }
+
+  .eyebrow {
+    @apply font-sans text-[0.7rem] font-extrabold uppercase leading-none tracking-[0.16em] md:text-xs;
+  }
+
+  .display-h1 {
+    @apply font-display text-[clamp(2.55rem,5.4vw,5.1rem)] font-black leading-[0.98] tracking-[-0.045em];
+  }
+
+  .display-h2 {
+    @apply font-display text-[clamp(2.1rem,4vw,3.6rem)] font-extrabold leading-[1.04] tracking-[-0.037em];
+  }
+
+  .display-h3 {
+    @apply font-display text-[clamp(1.45rem,2.2vw,2rem)] font-bold leading-[1.12] tracking-[-0.025em];
+  }
+
+  .body-large {
+    @apply text-[1.0625rem] leading-[1.72] md:text-lg lg:text-xl;
+  }
+
+  .body-copy {
+    @apply text-base leading-[1.75] md:text-[1.0625rem];
+  }
+
+  .fine-rule {
+    @apply h-px w-full bg-current opacity-15;
+  }
+
+  .image-shell {
+    @apply relative overflow-hidden bg-stone;
+  }
+
+  .final-cta-bg {
+    background-image: url('/assets/images/final.webp');
+    background-position: 50% 35%;
+    background-size: cover;
+  }
+
+  .differentials-bg {
+    background-image: url('/assets/images/clinic-main.webp');
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
