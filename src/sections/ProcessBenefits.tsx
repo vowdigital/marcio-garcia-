@@ -31,7 +31,7 @@ export function ProcessBenefits() {
             <Reveal>
               <SectionHeading
                 eyebrow="Objetivos possíveis"
-                title={<span id="benefits-title">Um procedimento pensado para respeitar sua anatomia.</span>}
+                title={<span id="benefits-title">Preenchimento peniano pensado para respeitar sua anatomia.</span>}
                 text="A indicação e as possibilidades são sempre discutidas de forma individual, sem fórmulas prontas."
               />
               <div className="mt-8 border-l border-champagne pl-5 text-sm leading-7 text-ink/55">
@@ -70,7 +70,7 @@ export function ProcessBenefits() {
           <Reveal className="py-20 md:py-28 lg:border-r lg:border-white/10 lg:py-32 lg:pr-16">
             <p className="eyebrow text-champagne-light">Indicação responsável</p>
             <h2 id="indications-title" className="display-h2 mt-5 text-balance">
-              Para quem esse procedimento pode ser indicado?
+              Para quem o preenchimento peniano pode ser indicado?
             </h2>
             <p className="body-large mt-6 text-white/62">A indicação depende de avaliação médica individual.</p>
           </Reveal>

@@ -3,10 +3,12 @@ export const whatsappMessage =
 
 export const whatsappUrl = `https://wa.me/5543988717584?text=${encodeURIComponent(whatsappMessage)}`
 
+export const telegramUrl = 'https://t.me/+fzB3WDrAeew4MWRh'
+
 export const navigation = [
   { label: 'Início', href: '#inicio' },
   { label: 'Dr. Márcio', href: '#dr-marcio' },
-  { label: 'Bioplastia Íntima', href: '#bioplastia' },
+  { label: 'Preenchimento peniano', href: '#bioplastia' },
   { label: 'Procedimentos', href: '#procedimentos' },
   { label: 'Clínica', href: '#clinica' },
   { label: 'Dúvidas', href: '#duvidas' },
@@ -30,7 +32,7 @@ export const indications = [
 
 export const faqs = [
   {
-    question: 'O que é a Bioplastia Íntima Masculina?',
+    question: 'O que é o preenchimento peniano?',
     answer:
       'É uma abordagem médica individualizada para homens que desejam avaliar possibilidades de melhora de volume e proporção, sempre conforme avaliação da anatomia e dos objetivos de cada paciente.',
   },

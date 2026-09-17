@@ -28,7 +28,7 @@ export function Bioplasty() {
         <div className="flex items-center py-20 md:py-28 lg:py-32">
           <div className="w-full px-5 sm:px-8 lg:px-14 xl:px-20 2xl:pr-[max(5rem,calc((100vw-1360px)/2+4rem))]">
             <Reveal className="max-w-3xl">
-              <p className="eyebrow text-champagne">Bioplastia íntima masculina</p>
+              <p className="eyebrow text-champagne">Preenchimento peniano</p>
               <h2 id="bioplasty-title" className="display-h2 mt-5 text-balance text-navy-950">
                 Planejamento individualizado para quem busca volume, proporção e naturalidade.
               </h2>

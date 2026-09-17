@@ -1,7 +1,9 @@
+import { Send } from 'lucide-react'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import { Reveal } from '../components/Reveal'
 import { SectionHeading } from '../components/SectionHeading'
+import { telegramUrl } from '../data/content'
 
 const differentials = [
   'Segurança e qualidade',
@@ -75,9 +77,9 @@ export function DifferentialsResults() {
           <div className="grid gap-12 lg:grid-cols-[1fr_0.8fr] lg:items-end lg:gap-20">
             <Reveal>
               <SectionHeading
-                eyebrow="Resultados e individualidade"
-                title={<span id="results-title">Resultados que respeitam características individuais.</span>}
-                text="Cada resultado é consequência de características anatômicas, planejamento, técnica utilizada e resposta individual de cada paciente."
+                eyebrow="Resultados no Telegram"
+                title={<span id="results-title">Conheça resultados e acompanhe nosso trabalho.</span>}
+                text="Acesse nosso grupo no Telegram para conhecer exemplos de resultados e acompanhar conteúdos sobre o preenchimento peniano."
               />
             </Reveal>
             <Reveal delay={0.1}>
@@ -88,6 +90,16 @@ export function DifferentialsResults() {
                 <p className="mt-5 text-xs font-bold uppercase tracking-[0.1em] text-navy-950/42">
                   Resultados podem variar individualmente.
                 </p>
+                <a
+                  href={telegramUrl}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label="Abrir grupo de resultados no Telegram"
+                  className="group mt-7 inline-flex min-h-12 items-center justify-center gap-3 bg-navy-950 px-5 py-3 font-display text-[0.72rem] font-bold uppercase tracking-[0.08em] text-white transition duration-500 ease-premium hover:-translate-y-0.5 hover:bg-navy-800 sm:px-6"
+                >
+                  <span>Ver resultados no Telegram</span>
+                  <Send size={18} strokeWidth={1.6} className="transition-transform duration-500 ease-premium group-hover:translate-x-0.5" aria-hidden="true" />
+                </a>
               </div>
             </Reveal>
           </div>

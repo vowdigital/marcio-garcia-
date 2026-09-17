@@ -54,12 +54,12 @@ export function Hero() {
 
           <div className="container-shell relative lg:pr-10 xl:pl-[max(4rem,calc((100vw-1360px)/2+4rem))]">
             <div className="max-w-[46rem] lg:max-w-[43rem]">
-              <p className="hero-reveal eyebrow text-champagne-light">Dr. Márcio Garcia · Londrina</p>
-              <h1 id="hero-title" className="hero-reveal display-h1 mt-6 max-w-[13ch] text-balance">
-                Naturalidade, discrição e segurança em cada detalhe.
+              <p className="hero-reveal eyebrow text-champagne-light">Preenchimento peniano em Londrina</p>
+              <h1 id="hero-title" className="hero-reveal display-h1 mt-6 max-w-[15ch] text-balance">
+                Preenchimento peniano com naturalidade, discrição e segurança.
               </h1>
               <p className="hero-reveal mt-6 max-w-[39rem] text-base leading-[1.7] text-white/67 sm:text-lg">
-                Procedimentos de preenchimento realizados com planejamento individualizado, acompanhamento médico e foco em resultados proporcionais à anatomia de cada paciente.
+                Preenchimento peniano realizado com planejamento individualizado, acompanhamento médico e foco em resultados proporcionais à anatomia de cada paciente.
               </p>
 
               <div className="hero-reveal mt-8 flex flex-col gap-3 sm:flex-row">
@@ -102,7 +102,7 @@ export function Hero() {
           <div className="absolute inset-0 bg-gradient-to-b from-navy-950/20 via-transparent to-navy-950/55 lg:bg-gradient-to-r lg:from-navy-950/25 lg:via-transparent lg:to-transparent" />
 
           <div className="hero-feature absolute inset-x-5 bottom-6 z-30 border border-white/20 bg-navy-950/90 p-5 backdrop-blur-md sm:inset-x-auto sm:bottom-8 sm:left-8 sm:max-w-sm lg:bottom-10 lg:-left-10">
-            <p className="eyebrow text-champagne-light">Bioplastia íntima masculina</p>
+            <p className="eyebrow text-champagne-light">Preenchimento peniano</p>
             <p className="mt-3 text-sm leading-6 text-white/72">
               Uma abordagem médica e individualizada para homens que buscam melhora de volume e proporção com discrição.
             </p>

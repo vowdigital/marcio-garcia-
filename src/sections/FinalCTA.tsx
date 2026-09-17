@@ -15,7 +15,7 @@ export function FinalCTA() {
         <Reveal className="max-w-4xl">
           <p className="eyebrow text-champagne-light lg:text-sm">Atendimento individualizado</p>
           <h2 id="final-cta-title" className="display-h2 mt-5 max-w-[14ch] text-balance lg:text-[4.5rem]">
-            Seu tratamento começa com uma avaliação.
+            Agende sua avaliação para preenchimento peniano.
           </h2>
           <p className="body-large mt-6 max-w-3xl text-white/68 lg:text-2xl">
             Converse com nossa equipe e agende um atendimento reservado com o Dr. Márcio Garcia.
